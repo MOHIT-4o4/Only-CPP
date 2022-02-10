@@ -1,16 +1,33 @@
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int i , choice ,fact =1 ;
+    
+//     cout << "Enter the number:";
+//     cin >> choice ;
+
+//     for(i=1;i<=choice;i++){
+//         fact = fact *i ;
+
+//     }
+//     cout<< fact ; 
+    
+// }
 #include<iostream>
-using namespace std;
+#include"tool.h"
 
 int main(){
-    int i , choice ,fact =1 ;
-    
-    cout << "Enter the number:";
-    cin >> choice ;
 
-    for(i=1;i<=choice;i++){
-        fact = fact *i ;
-
+    FILE *f;
+    f = fopen("too1.txt","r");
+    if(f){
+        while(!EOF(f))
+        {
+            
+        }
+        
     }
-    cout<< fact ; 
-    
+    print();
+    return 0;
 }
